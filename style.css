@@ -1,0 +1,243 @@
+
+body {
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+#Bar{
+  margin: auto;
+  background: #68B35F;
+  width: 90%;
+  height: 70px;
+}
+
+p .bold{
+  font-weight: bold;
+}
+
+#Bar p {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 0px;
+  position: absolute;
+  line-height: 70px;
+  left: 46%;
+  font-size: 50px;
+  color: #333;
+  font-family: 'Handlee', cursive;
+
+}
+
+.menuIcon {
+  position: absolute;
+  left: 1.5%;
+  top: 15px;
+  width: 40px;
+  height: 35px;
+}
+
+
+
+.line {
+  margin-bottom: 7px;
+  height: 7px;
+  width: 40px;
+  background: black;
+}
+
+.home {
+  position: absolute;
+  left: 96.5%;
+  top: 30px;
+  width: 30px;
+  height: 25px;
+}
+
+.home-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:  center;
+}
+
+.home-list .cont{
+  position: relative;
+  top: 90px;
+  width: 300px;
+  height: 150px;
+  margin: 30px;
+  padding: 30px;
+  background: #f3f3f3;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+
+.home-list a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.Arr {
+  position: fixed;
+  top: 50%;
+  width: 300px;
+  margin: 30px;
+}
+
+.menu {
+  position: fixed;
+  top: 90px;
+  width: 300px;
+  height: 80%;
+  margin: 30px;
+  margin-left: 5%;
+  background: #333;
+  border-radius: 25px;
+  border: 10px solid black;
+}
+
+.menu ul {
+  font-size: 25px;
+  font-family: arial;
+  color: white
+}
+
+.menu ul a:hover {
+  font-weight: bold;
+}
+
+.menu ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+
+.menu h2 {
+  color: white;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+#Bar ul {
+  margin: 0;
+  margin-left: 60px;
+  padding: 0;
+
+  -webkit-touch-callout: none;
+ -webkit-user-select: none;
+  -khtml-user-select: none;
+    -moz-user-select: none;
+     -ms-user-select: none;
+         user-select: none;
+}
+
+#Bar p {
+  -webkit-touch-callout: none;
+ -webkit-user-select: none;
+  -khtml-user-select: none;
+    -moz-user-select: none;
+     -ms-user-select: none;
+         user-select: none;
+}
+
+#Bar #uno{
+  position: absolute;
+  left: 16%;
+}
+
+#Bar #due{
+  position: absolute;
+  left: 33%;
+}
+
+#Bar #tre{
+  position: absolute;
+  left: 65%;
+}
+
+#Bar #quattro{
+  position: absolute;
+  left: 82%;
+}
+
+#Bar ul li {
+   list-style: none;
+   display: inline-block;
+   float: left;
+   line-height: 70px;
+}
+
+#Bar ul li a {
+   text-decoration: none;
+   font-size: 24px;
+   font-family: arial;
+   color: #1e1e1e;
+}
+
+#Bar ul li a:hover {
+   font-weight: bold;
+}
+
+
+#image {
+  background-color: black;
+  width: 100%;
+  height: 100%
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin:60px;
+}
+
+.Capitolo {
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px;
+  border-radius: 75px;
+  background-color: #f3f3f3
+}
+
+h2 {
+  margin-left: 60px;
+  font-size: 35px;
+}
+
+p {
+  margin: 60px;
+  font-size: 25px;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-bottom: 20px solid black;
+
+  position: relative;
+  top: -40px;
+  right: 5px;
+}
